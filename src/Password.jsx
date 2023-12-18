@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-export default function PasswordConfirm() {
+export default function Password() {
   const [isPasswordVisible, setIsPasswordVisible] = useState(false);
 
   function togglePasswordVisibility() {
@@ -11,7 +11,7 @@ export default function PasswordConfirm() {
     <div className="relative w-full container mt-5">
       <input
         type={isPasswordVisible ? "text" : "password"}
-        placeholder="Confirm Password"
+        placeholder="Password"
         required
         className="block w-full px-4 py-2 peer  text-black  bg-white border rounded-md focus:bg-green-200 focus:border-[#568302] focus:ring-[#568302] focus:outline-none focus:bg-green-200 focus:ring focus:ring-opacity-40"
       />

@@ -6,6 +6,7 @@ import logo from "./assets/logo.png";
 import hide from "./assets/hide.png";
 import google from "./assets/google.png";
 import PasswordConfirm from "./Confirmpassword";
+import Password from "./Password";
 import apple from "./assets/apple.png";
 const Signup2 = () => {
   const [activeTab, setActiveTab] = useState("login");
@@ -76,11 +77,7 @@ const Signup2 = () => {
             </div>
             <div className="mb-2"></div>
             <div className="">
-              <input
-                className="block w-full px-4 py-2 mt-5 peer text-[#568302] bg-white border rounded-md focus:border-[#568302] focus:bg-green-200 focus:ring-purple-300 focus:outline-none focus:ring focus:ring-opacity-40"
-                placeholder="Password"
-                required
-              />
+            <Password />
             </div>
             <div className="mb-2">
               <PasswordConfirm />
