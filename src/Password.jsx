@@ -8,15 +8,15 @@ export default function Password() {
   }
 
   return (
-    <div className="relative w-full container mt-5">
+    <div className="relative w-full container ">
       <input
         type={isPasswordVisible ? "text" : "password"}
         placeholder="Password"
         required
-        className="block w-full px-4 py-2 peer  text-black  bg-white border rounded-md focus:bg-green-200 focus:border-[#568302] focus:ring-[#568302] focus:outline-none focus:bg-green-200 focus:ring focus:ring-opacity-40"
+        className="block w-full px-4 py-2   text-black  bg-white border rounded-md focus:bg-[#DAF4A8]   focus:outline-none  focus:border-black focus:ring-opacity-40"
       />
       <button
-        className="absolute inset-y-0 right-0  flex items-center px-4 text-gray-600"
+        className="absolute inset-y-0 right-0 mb-6 flex items-center px-4 text-gray-600"
         onClick={togglePasswordVisibility}
       >
         {isPasswordVisible ? (
@@ -56,6 +56,10 @@ export default function Password() {
           </svg>
         )}
       </button>
+      <p className="text-xs leading-3 mb-2"><small>
+                Please use only letters and numbers. Pick something you like -
+                usernames can’t be changed later.
+                </small></p>
     </div>
   );
 }

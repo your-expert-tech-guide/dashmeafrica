@@ -44,7 +44,7 @@ const Signup = () => {
 
       {/* Signup Content */}
       <div className="flex">
-        <div className="w-3/5 p-8">
+        <div className="w-1/2 p-6 ml-4">
           {/* Register with Email */}
           <h2 className="text-2xl font-semibold text-black-600 mb-4 text-center">
             Register
@@ -52,7 +52,7 @@ const Signup = () => {
           <p className="text-sm text-gray-700 mb-6 text-center ">
             Join to donate or sell to anyone in Nigeria with FREE DELIVERY
           </p>
-          <button className="w-full max-w-full shadow-sm rounded-lg p-1 border-2 border-black-600 text-gray-800 flex items-center justify-center transition-all duration-300 ease-in-out focus:outline hover:shadow focus:shadow-sm focus:shadow-outline mt-5">
+          <button className="w-full max-w-full shadow-sm rounded-lg p-1 border-2 border-black-600 text-gray-800 flex items-center justify-center transition-all duration-300 ease-in-out focus:outline-none  focus:border-black focus:ring-opacity-40 mt-5">
             <div className="bg-white p-1 rounded-full">
               <img
                 src={google}
@@ -63,7 +63,7 @@ const Signup = () => {
             </div>
             <span className="ml-4">Register with Google</span>
           </button>
-          <button className="w-full max-w-full shadow-sm rounded-lg p-1 border-2 border-black-600 text-gray-800 flex items-center justify-center transition-all duration-300 ease-in-out focus:outline hover:shadow focus:shadow-sm focus:shadow-outline mt-5">
+          <button className="w-full max-w-full shadow-sm rounded-lg p-1 border-2 border-black-600 text-gray-800 flex items-center justify-center transition-all duration-300 ease-in-out focus:outline-none  focus:border-black focus:ring-opacity-40 mt-5">
             <div className="bg-white p-1 rounded-full">
               <img
                 src={apple}
@@ -81,7 +81,7 @@ const Signup = () => {
             </p>
           </div>
 
-          <button className="w-full max-w-full shadow-sm rounded-lg p-2 border-2 border-black-600 text-gray-800 flex items-center justify-center transition-all duration-300 ease-in-out focus:outline hover:shadow focus:shadow-sm focus:shadow-outline mt-5">
+          <button className="w-full max-w-full shadow-sm rounded-lg p-2 border-2 border-black-600 text-gray-800 flex items-center justify-center transition-all duration-300 ease-in-out focus:outline-none  focus:border-black focus:ring-opacity-40 mt-5">
             <span className="ml-4">
               <Link to="/Signup2">Register with Email</Link>
             </span>
@@ -91,19 +91,19 @@ const Signup = () => {
           <div className="text-center w-full p-4">
             <p className="text-gray-600">
               Already have an account?{" "}
-              <a href="#" className="text-[#568203]">
+              <a href="#" className="text-[#568203] text-sm">
                 <Link to="/Login">Login</Link>
               </a>
             </p>
           </div>
         </div>
 
-        <div className="w-2/5 h-86 mb-12 rounded-md mr-8 bg-black">
+        <div className="w-1/2 h-86 mb-12 rounded-md ml-2 mr-8 bg-black">
           {/* Image */}
           <img
             src={frame}
             alt="Signup Image"
-            className="w-full mt-28  object-cover "
+            className="w-full mt-28 mb-20 object-cover "
           />
         </div>
       </div>

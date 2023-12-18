@@ -46,34 +46,32 @@ const Forgotpassword = () => {
       <div className="flex">
         <div className="w-1/2 p-8">
           {/* Register with Email */}
-          <h2 className="text-2xl font-semibold text-black-600 mb-12 text-center">
+          <h2 className="text-2xl font-semibold text-black-600 mb-8 text-center">
             Forgotten your password?
           </h2>
 
-          <div class="grid gap-y-4">
+          <div className="grid gap-y-4">
             <div>
               <input
                 type="email"
                 name="email"
                 id="email"
                 required
-                className="peer block w-full px-4 py-2 mt-2 text-[#568302] bg-white border rounded-md focus:border-[#568302] focus:bg-green-200 focus:ring-purple-300 focus:outline-none focus:ring focus:ring-opacity-40"
+                className="peer block w-full px-4 py-2 mb-10 text-[#568302] bg-white border rounded-md focus:border-[#568302] focus:bg-green-200 focus:ring-purple-300 focus:outline-none focus:ring focus:ring-opacity-40"
                 placeholder="Enter your email"
               />
-              <p className="invisible peer-invalid:visible text-red-700 font-light">
-                Please enter a valid email address
-              </p>
+              
             </div>
             <button
               type="submit"
-              className="py-3 px-4 inline-flex justify-center items-center gap-2 rounded-md border border-transparent font-semibold bg-[#568302] text-white hover:bg-black focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 transition-all text-sm dark:focus:ring-offset-gray-800"
+              className="py-3 px-4 inline-flex justify-center items-center gap-2 rounded-md border mb-20 border-transparent font-semibold bg-[#568302] text-white hover:bg-black focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 transition-all text-sm dark:focus:ring-offset-gray-800"
             >
               Continue
             </button>
           </div>
 
           {/* Footer */}
-          <div className="text-center w-full p-4">
+          <div className="text-center w-full p-4 mt-20">
             <p className="text-gray-600">
               <a href="#" className="text-[#568203]">
                 Having trouble?
@@ -82,7 +80,7 @@ const Forgotpassword = () => {
           </div>
         </div>
 
-        <div className="w-1/2 h-96 mr-8 rounded-md mb-4 bg-black">
+        <div className="w-1/2 h-98 mr-8 rounded-md mb-10 bg-black">
           {/* Image */}
           <img
             src={frame}

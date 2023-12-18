@@ -45,7 +45,7 @@ const Login = () => {
 
       {/* Signup Content */}
       <div className="flex">
-        <div className="w-3/5 p-8">
+        <div className="w-1/2 p-3 m-8">
           {/* Register with Email */}
           <h2 className="text-2xl font-semibold text-black-600 mb-6 text-center">
             Log In
@@ -57,29 +57,27 @@ const Login = () => {
               name="email"
               id="email"
               required
-              className="peer block w-full px-4 py-2 mt-2 text-[#568302] bg-white border rounded-md focus:border-[#568302] focus:bg-green-200 focus:ring-purple-300 focus:outline-none focus:ring focus:ring-opacity-40"
+              className=" block w-full px-4 py-2 mt-2 text-[#568302] bg-white border rounded-md focus:border-black focus:bg-[#DAF4A8]  focus:outline-none  focus:ring-opacity-40"
               placeholder="Enter your email"
             />
-            <p className="invisible peer-invalid:visible text-red-700 font-light">
-              Please enter a valid email address
-            </p>
+            
           </div>
           <div className="">
             <PasswordInput />
           </div>
 
-          <div className="mt-6">
-            <button className="w-full px-4 py-2 tracking-wide text-white transition-colors duration-200 transform bg-[#568302] rounded-md hover:bg-black focus:outline-none ">
+          <div className="mt-6 ">
+            <button className="w-full mt-8 px-4 py-2  text-white transition-colors duration-200 transform bg-[#568302] rounded-md hover:bg-black focus:outline-none ">
               Log In
             </button>
-            <div className="mb-8">
-              <span className="text-[#568302] float-right text-sm ">
+            <div className="mb-10">
+              <span className="text-[#568302] float-right text-xs ">
                 Forgotten your password?
               </span>
             </div>
           </div>
 
-          <div className="my-4 mt-12 mb-12 flex items-center before:mt-0.5 before:flex-1 before:border-t before:border-neutral-300 after:mt-0.5 after:flex-1 after:border-t after:border-neutral-300">
+          <div className="my-4 mt-16 mb-10 flex items-center before:mt-0.5 before:flex-1 before:border-t before:border-neutral-300 after:mt-0.5 after:flex-1 after:border-t after:border-neutral-300">
             <p className="mx-4 mb-0 text-center font-semibold dark:text-white">
               OR
             </p>
@@ -96,7 +94,7 @@ const Login = () => {
             </div>
             <span className="ml-4">Register with Google</span>
           </button>
-          <button className="w-full max-w-full shadow-sm rounded-lg p-1 border-2 border-black-600 text-gray-800 flex items-center justify-center mb-10 transition-all duration-300 ease-in-out focus:outline hover:shadow focus:shadow-sm focus:shadow-outline mt-5">
+          <button className="w-full max-w-full  shadow-sm rounded-lg p-1 border-2 border-black-600 text-gray-800 flex items-center justify-center mb-10 transition-all duration-300 ease-in-out focus:outline hover:shadow focus:shadow-sm focus:shadow-outline mt-5">
             <div className="bg-white p-1 rounded-full">
               <img
                 src={apple}
@@ -109,21 +107,21 @@ const Login = () => {
           </button>
 
           {/* Footer */}
-          <div className="text-center w-full p-4">
+          <div className="text-center w-full p-4 ">
             <p className="text-gray-600">
-              <a href="#" className="text-[#568203]">
+              <a href="#" className=" text-[#568203] text-sm ">
                 Having trouble?
               </a>
             </p>
           </div>
         </div>
 
-        <div className="w-2/5 h-86 mb-12 rounded-md mr-8 bg-black">
+        <div className="w-1/2 h-86 mb-14 rounded-md mr-8 bg-black">
           {/* Image */}
           <img
             src={frame}
             alt="Signup Image"
-            className="w-full mt-44  object-cover "
+            className="w-full mt-48 mb-40  object-cover "
           />
         </div>
       </div>
