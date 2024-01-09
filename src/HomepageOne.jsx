@@ -76,6 +76,33 @@ return(
             </div>
         
         </nav>
+  {/* HERO SECTION  */}
+        <section
+  className="relative bg-[url('./assets/heroimage.png')] bg-cover bg-center bg-no-repeat"
+>
+  <div
+    className=" "
+  ></div>
+
+  <div
+    className="text-center py-32 sm:px-6 lg:flex lg:h-screen lg:items-center lg:px-8"
+  >
+    
+
+    <div className="bg-white p-8 justify-left mt-60 mb-10  w-50 h-44 shawdow-xl rounded-md">
+      <p className=' ml-3 font-medium '>Sell it!</p>
+      <p className='ml-2 font-medium'>Donate it!</p>
+      <p>Don't trash it!</p>
+      <button
+        
+        className="p-2 mt-4   font-lg  text-white rounded-lg border text-center border-solid bg-[#568203]   w-40 text-xs font-medium leading-normal text-black transition duration-150 ease-in-out hover:border-neutral-100 hover:bg-black-200  focus:border-#568203 focus:text-neutral-100 focus:outline-none focus:ring-0 active:border-black-200 active:text-dark:hover:bg-neutral-100 dark"
+      >
+        <Link to="">Upload</Link>
+      </button>
+    </div>
+  
+  </div>
+</section>
         </div>
 )
 
