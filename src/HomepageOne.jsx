@@ -76,6 +76,7 @@ return(
             </div>
         
         </nav>
+        
   {/* HERO SECTION  */}
         <section
   className="relative bg-[url('./assets/heroimage.png')] bg-cover bg-center bg-no-repeat"
@@ -103,6 +104,10 @@ return(
   
   </div>
 </section>
+
+
+ {/* PRODUCT LIST  */}
+ <Productlist />
 
 {/*FOOTER */}
 <div className="">
