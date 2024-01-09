@@ -11,6 +11,7 @@ import Signup2 from './Signup2';
 import Forgotpassword from './Forgotpassword'
 import HomepageOne from './HomepageOne'
 import Productlist from './Productlist'
+import Productpage from './Productpage'
 function App() {
   return (
     <>
@@ -21,6 +22,7 @@ function App() {
         <Route path='/forgotpassword' element={<Forgotpassword />} />
         <Route path='/homepageone' element={<HomepageOne />} />
         <Route path='/productlist' element={<Productlist />} />
+        <Route path='/productpage' element={<Productpage />} />
        
 </Routes>
     </>
