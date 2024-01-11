@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from "react-router-dom";
 import Tik from './assets/tik.png';
+import Instagram from './assets/instagram.png';
 import Twitter from './assets/twitter.png';
 import Facebook from './assets/facebook.png';
 import Dashcart from './assets/dashcart.png'
@@ -78,7 +79,7 @@ return (
           />
           <span className=' flex gap-6' >
           <p className=''>Upload</p>
-          <p>Sign Up</p>
+          <p> <Link to="/Signup2">Signup</Link></p>
           <div className="flex"><p>EN</p> <img
             src={dropdown}
             alt="dropdown icon"
@@ -549,10 +550,10 @@ return (
           />
           </a>
 
-          <a href="" target="_blank" rel="noreferrer">
+          <a href="https://www.instagram.com/dashmeafrica?utm_source=qr" target="_blank" rel="noreferrer">
           <img
-            src={Tik}
-            alt="facebook icon"
+            src={Instagram}
+            alt="Instagram icon"
             className="w-6"
           />
           </a>

@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import Tik from './assets/tik.png';
 import Twitter from './assets/twitter.png';
 import Facebook from './assets/facebook.png';
+import Instagram from './assets/instagram.png';
 import Dashcart from './assets/dashcart.png'
 import logo from './assets/logo.png';
 import search from './assets/search.png';
@@ -171,12 +172,13 @@ return(
           />
           </a>
 
-          <a href="" target="_blank" rel="noreferrer">
+          <a href="https://www.instagram.com/dashmeafrica?utm_source=qr" target="_blank" rel="noreferrer">
           <img
-            src={Tik}
-            alt="facebook icon"
-            className="w-6"
-          />
+           
+           src={Instagram}
+           alt="Instagram icon"
+           className="w-6"
+         />
           </a>
           {/* Image */}
           
