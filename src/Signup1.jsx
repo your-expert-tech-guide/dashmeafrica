@@ -1,5 +1,5 @@
 // src/components/Signup.js
-//import React, { useState } from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import frame from "./assets/frame.png";
 import logo from "./assets/logo.png";
