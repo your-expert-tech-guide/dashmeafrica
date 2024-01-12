@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+//import React, { useState } from 'react';
 import { Link } from "react-router-dom";
 import Tik from './assets/tik.png';
 import Instagram from './assets/instagram.png';
@@ -11,17 +11,12 @@ import heart from './assets/heart.png';
 import email from './assets/email.png';
 import dropdown from './assets/dropdown.png';
 import notification from './assets/notification.png';
-import Productpage from './Productpage';
 import Productproduct from './Productproduct';
 import Shirt from './assets/shirt.png';
 import Shoe from './assets/shoe.png';
 import Singlet from './assets/singlet.png';
-import Top from './assets/top.png';
 import Jean from './assets/jean.png';
-import Wig from './assets/wig.png';
-import Chair from './assets/chair.png'
 import Woodchair from './assets/woodchair.png';
-import Sidechair from './assets/sidechair.png';
 import Jewelry from './assets/jewelry.png';
 import Iheart from './assets/iheart.png';
 import Customer from './assets/customer.png';

@@ -1,5 +1,5 @@
 // src/components/Signup.js
-import React, { useState } from "react";
+//import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import frame from "./assets/frame.png";
 import logo from "./assets/logo.png";
@@ -58,7 +58,7 @@ const Signup = () => {
                 src={google}
                 alt="google Image"
                 className="w-6"
-                viewBox="0 0 32 32"
+                
               />
             </div>
             <span className="ml-4">Register with Google</span>
@@ -69,7 +69,7 @@ const Signup = () => {
                 src={apple}
                 alt="apple Image"
                 className="w-6"
-                viewBox="0 0 32 32"
+                
               />
             </div>
             <span className="ml-4">Register with Apple</span>

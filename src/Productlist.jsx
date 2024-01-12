@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+//import React, { useState } from 'react';
 import Shirt from './assets/shirt.png';
 import Shoe from './assets/shoe.png';
 import Singlet from './assets/singlet.png';
@@ -7,7 +7,6 @@ import Jean from './assets/jean.png';
 import Wig from './assets/wig.png';
 import Chair from './assets/chair.png'
 import Woodchair from './assets/woodchair.png';
-import Sidechair from './assets/sidechair.png';
 import Jewelry from './assets/jewelry.png';
 import Iheart from './assets/iheart.png';
 import Customer from './assets/customer.png';

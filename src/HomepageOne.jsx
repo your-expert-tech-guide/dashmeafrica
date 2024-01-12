@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+//import React, { useState } from 'react';
 import { Link } from "react-router-dom";
 import Tik from './assets/tik.png';
 import Twitter from './assets/twitter.png';
@@ -12,7 +12,6 @@ import email from './assets/email.png';
 import dropdown from './assets/dropdown.png';
 import customer from './assets/customer.png';
 import notification from './assets/notification.png';
-import heroimage from './assets/heroimage.png';
 import Productlist from './Productlist';
 
 const HomepageOne = () => {
@@ -95,7 +94,7 @@ return(
     <div className="bg-white p-8 justify-left mt-60 mb-10  w-50 h-44 shawdow-xl rounded-md">
       <p className=' ml-3 font-medium '>Sell it!</p>
       <p className='ml-2 font-medium'>Donate it!</p>
-      <p>Don't trash it!</p>
+      <p>Do not trash it!</p>
       <button
         
         className="p-2 mt-4   font-lg  text-white rounded-lg border text-center border-solid bg-[#568203]   w-40 text-xs font-medium leading-normal text-black transition duration-150 ease-in-out hover:border-neutral-100 hover:bg-black-200  focus:border-#568203 focus:text-neutral-100 focus:outline-none focus:ring-0 active:border-black-200 active:text-dark:hover:bg-neutral-100 dark"

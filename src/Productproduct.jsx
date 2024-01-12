@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+//import React, { useState } from 'react';
 import { Link } from "react-router-dom";
 import Jewelry from './assets/jewelry.png';
 
@@ -9,35 +9,35 @@ return (
   <div>
 
 
-<section class="py-12 sm:py-16"> 
-  <div class="container mx-auto px-6 ">
-    <nav class="flex gap-16 ">
+<section className="py-12 sm:py-16"> 
+  <div className="container mx-auto px-6 ">
+    <nav className="flex gap-16 ">
         
-          <div class="-m-1">
-            <a href="#" class="rounded-md p-1 text-sm font-medium text-gray-600 focus:text-gray-900 focus:shadow hover:text-gray-800">Clothes </a>
+          <div className="-m-1">
+            <a href="#" className="rounded-md p-1 text-sm font-medium text-gray-600 focus:text-gray-900 focus:shadow hover:text-gray-800">Clothes </a>
           </div>
      
 
   
-            <div class="-m-1">
-              <a href="#" class="rounded-md p-1 text-sm font-medium text-gray-600 focus:text-gray-900 focus:shadow hover:text-gray-800"> Household Items </a>
+            <div className="-m-1">
+              <a href="#" className="rounded-md p-1 text-sm font-medium text-gray-600 focus:text-gray-900 focus:shadow hover:text-gray-800"> Household Items </a>
             </div>
          
         
 
         
-            <div class="-m-1">
-              <a href="#" class="rounded-md p-1 text-sm font-medium text-gray-600 focus:text-gray-900 focus:shadow hover:text-gray-800" aria-current="page"> Accessories </a>
+            <div className="-m-1">
+              <a href="#" className="rounded-md p-1 text-sm font-medium text-gray-600 focus:text-gray-900 focus:shadow hover:text-gray-800" aria-current="page"> Accessories </a>
             </div>
           
         
     
     </nav>
 
-    <div class="lg:col-gap-12 xl:col-gap-16 w-full justify-center  grid grid-cols-1 gap-12 lg:mt-12 lg:grid-cols-5 ">
-      <div class="lg:col-span-3 lg:row-end-1">
-        <div class="lg:flex lg:items-start">
-          <div class="lg:order-2  w-full h-full">
+    <div className="lg:col-gap-12 xl:col-gap-16 w-full justify-center  grid grid-cols-1 gap-12 lg:mt-12 lg:grid-cols-5 ">
+      <div className="lg:col-span-3 lg:row-end-1">
+        <div className="lg:flex lg:items-start">
+          <div className="lg:order-2  w-full h-full">
           <div className="lg:order-2  w-full h-full  ">
             <div className=" overflow-hidden rounded-lg">
               <img  src = {Jewelry} className="h-full w-full  object-cover "  alt="" />
@@ -46,23 +46,23 @@ return (
           </div>
           </div>
 
-          <div class=" w-full lg:order-1 lg:w-32 lg:flex-shrink-0">
-            <div class="flex flex-row items-start lg:flex-col ">
-              <button type="button" class="flex-0 aspect-square  h-20 overflow-hidden rounded-lg border-2 border-transparent text-center">
+          <div className=" w-full lg:order-1 lg:w-32 lg:flex-shrink-0">
+            <div className="flex flex-row items-start lg:flex-col ">
+              <button type="button" className="flex-0 aspect-square  h-20 overflow-hidden rounded-lg border-2 border-transparent text-center">
               <img  src = {Jewelry} className="h-full w-full max-w-full object-cover"  alt="" />
               </button>
-              <button type="button" class="flex-0 aspect-square mb-3 h-20 overflow-hidden rounded-lg border-2 border-transparent text-center">
+              <button type="button" className="flex-0 aspect-square mb-3 h-20 overflow-hidden rounded-lg border-2 border-transparent text-center">
               <img  src = {Jewelry} className="h-full w-full max-w-full object-cover"  alt="" />
               </button>
-              <button type="button" class="flex-0 aspect-square mb-3 h-20 overflow-hidden rounded-lg border-2 border-transparent text-center">
-              <img  src = {Jewelry} className="h-full w-full max-w-full object-cover"  alt="" />
-               
-              </button>
-              <button type="button" class="flex-0 aspect-square mb-3 h-20 overflow-hidden rounded-lg border-2 border-transparent text-center">
+              <button type="button" className="flex-0 aspect-square mb-3 h-20 overflow-hidden rounded-lg border-2 border-transparent text-center">
               <img  src = {Jewelry} className="h-full w-full max-w-full object-cover"  alt="" />
                
               </button>
-              <button type="button" class="flex-0 aspect-square mb-3 h-20 overflow-hidden rounded-lg border-2 border-transparent text-center">
+              <button type="button" className="flex-0 aspect-square mb-3 h-20 overflow-hidden rounded-lg border-2 border-transparent text-center">
+              <img  src = {Jewelry} className="h-full w-full max-w-full object-cover"  alt="" />
+               
+              </button>
+              <button type="button" className="flex-0 aspect-square mb-3 h-20 overflow-hidden rounded-lg border-2 border-transparent text-center">
               <img  src = {Jewelry} className="h-full w-full max-w-full object-cover"  alt="" />
                
               </button>
@@ -83,8 +83,8 @@ return (
         <p className='text-[#71033F] mt-4'>N12,500.00</p>
 
         <div className='flex mt-2  gap-3'>
-        <button class="rounded-lg  bg-[#568203] font-bold py-1 px-3 my-2 text-center text-white">Message Profile</button>
-        <button class="rounded-lg p-1 border-2 border-black-600   p-1 my-2 text-center">Add to saved items</button>
+        <button className="rounded-lg  bg-[#568203] font-bold py-1 px-3 my-2 text-center text-white">Message Profile</button>
+        <button className="rounded-lg p-1 border-2 border-black-600   p-1 my-2 text-center">Add to saved items</button>
         </div>
       </div>
 

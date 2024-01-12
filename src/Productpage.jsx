@@ -1,5 +1,4 @@
-import React, { useState } from 'react';
-import { Link } from "react-router-dom";
+//import React, { useState } from 'react';
 import Jewelry from './assets/jewelry.png';
 
 const Productpage = () => {
@@ -86,15 +85,15 @@ return (
         </div>
         
         </div>
-        <div class="lg:col-span-2 lg:row-span-2 lg:row-end-2">
-        <h1 class="sm: text-2xl font-bold text-gray-900 sm:text-3xl">Afro-Brazillian Coffee</h1>
+        <div className="lg:col-span-2 lg:row-span-2 lg:row-end-2">
+        <h1 className="sm: text-2xl font-bold text-gray-900 sm:text-3xl">Afro-Brazillian Coffee</h1>
 
        
 
-        <h2 class="mt-8 text-base text-gray-900">Coffee Type</h2>
+        <h2 className="mt-8 text-base text-gray-900">Coffee Type</h2>
         
 
-        <h2 class="mt-8 text-base text-gray-900">Choose subscription</h2>
+        <h2 className="mt-8 text-base text-gray-900">Choose subscription</h2>
        
 
 

@@ -1,11 +1,11 @@
 // src/components/Login.js
-import React, { useState } from 'react';
+//import React, { useState } from 'react';
 import { Link } from "react-router-dom";
 import frame from './assets/frame.png';
 import logo from './assets/logo.png';
 import hide from './assets/hide.png';
-import google from './assets/google.png';
-import apple from './assets/apple.png';
+//import google from './assets/google.png';
+//import apple from './assets/apple.png';
 const Signup2 = () => {
   const [activeTab, setActiveTab] = useState('login');
 
@@ -80,11 +80,11 @@ const Signup2 = () => {
                             className="block w-full px-4 py-2 mt-2 text-purple-700 bg-white border rounded-md focus:bg-green-200 focus:border-[#568302] focus:ring-[#568302] focus:outline-none focus:ring focus:ring-opacity-40"
                             placeholder='Email'
                         />
-                        <span class="absolute left-10 mr-50 mt-5 end-0 grid place-content-center px-4">
+                        <span className="absolute left-10 mr-50 mt-5 end-0 grid place-content-center px-4">
                         <img
             src={hide}
             alt="apple Image"
-            className="h-4 w-4 text-gray-400 mr-48" viewBox="0 0 24 24" 
+            className="h-4 w-4 text-gray-400 mr-48" 
           />
                         </span>
                    </div>
@@ -95,11 +95,11 @@ const Signup2 = () => {
                             className="block w-full px-4 py-2 mt-2 text-[#568302] bg-white border rounded-md focus:border-[#568302] focus:bg-green-200 focus:ring-purple-300 focus:outline-none focus:ring focus:ring-opacity-40"
                             placeholder='Password'  
                         />
-                        <span class="absolute left-10 mr-50 mt-5 end-0 grid place-content-center px-4">
+                        <span className="absolute left-10 mr-50 mt-5 end-0 grid place-content-center px-4">
                         <img
             src={hide}
             alt="apple Image"
-            className="h-4 w-4 text-gray-400 mt-8 mr-48" viewBox="0 0 24 24 " 
+            className="h-4 w-4 text-gray-400 mt-8 mr-48 " 
           />
                         </span>
                         <p className='text-xs leading-3 mb-4'>Please use only letters and numbers. Pick something you like - usernames can’t be changed later.</p>
@@ -115,13 +115,13 @@ const Signup2 = () => {
                         
                         <p className='text-xs leading-3 mb-3'>Please use only letters and numbers. Pick something you like - usernames can’t be changed later.</p>
                    </div>
-                    <div class="flex items-start items-center mb-4">
-      <input id="checkbox-3" aria-describedby="checkbox-3" type="checkbox" class="bg-gray-50 border-gray-300 focus:ring-3 focus:ring-blue-300 h-4 w-4 rounded"/>
-      <label for="checkbox-3" class="text-xs ml-3  leading-3 font-small text-gray-900">I’d like to receive personalised offers and be the first to receive updates about latest Dashme Africa.</label>
+                    <div className="flex items-start items-center mb-4">
+      <input id="checkbox-3" aria-describedby="checkbox-3" type="checkbox" className="bg-gray-50 border-gray-300 focus:ring-3 focus:ring-blue-300 h-4 w-4 rounded"/>
+      <label for="checkbox-3" className="text-xs ml-3  leading-3 font-small text-gray-900">I’d like to receive personalised offers and be the first to receive updates about latest Dashme Africa.</label>
   </div>
-  <div class="flex items-start items-center mb-4">
-      <input id="checkbox-3" aria-describedby="checkbox-3" type="checkbox" class="bg-gray-50 border-gray-300 focus:ring-3 focus:ring-blue-300 h-4 w-4 rounded"/>
-      <label for="checkbox-3" class="text-xs leading-3 ml-3 font-small text-gray-900">By registering, I confirm that I accept Dashme Africa’s Terms and Conditions, and I have read the Privacy Policy,
+  <div className="flex items-start items-center mb-4">
+      <input id="" aria-describedby="checkbox-3" type="checkbox" className="bg-gray-50 border-gray-300 focus:ring-3 focus:ring-blue-300 h-4 w-4 rounded"/>
+      <label for="" className="text-xs leading-3 ml-3 font-small text-gray-900">By registering, I confirm that I accept Dashme Africa’s Terms and Conditions, and I have read the Privacy Policy,
 and that I’m at least 18 years old.</label>
   </div>
                     

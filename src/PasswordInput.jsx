@@ -1,6 +1,7 @@
 // PasswordInput.jsx
-import React, { useState } from 'react';
+//import React, { useState } from 'react';
 import hide from './assets/hide.png';
+import PropTypes from 'prop-types';
 
 const PasswordInput = ({ placeholder }) => {
   const [password, setPassword] = useState('');
@@ -42,6 +43,12 @@ const PasswordInput = ({ placeholder }) => {
       </div>
     </div>
   );
+
 };
+
+PasswordInput.propTypes = {
+  placeholder: PropTypes.string.isRequired,
+};
+
 
 export default PasswordInput;
