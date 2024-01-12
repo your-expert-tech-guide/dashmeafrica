@@ -1,10 +1,9 @@
 // src/components/Forgotpassword
-import React, { useState } from 'react';
+//import React, { useState } from 'react';
 import { Link } from "react-router-dom";
 import frame from './assets/frame.png';
 import logo from './assets/logo.png';
-import google from './assets/google.png';
-import apple from './assets/apple.png';
+
 
 const Forgotpassword = () => {
   const [activeTab, setActiveTab] = useState('login');
@@ -56,7 +55,7 @@ const Forgotpassword = () => {
           <h2 className="text-2xl font-semibold text-black-600 mb-12 text-center">Forgotten your password?</h2>
          
           
-            <div class="grid gap-y-4">
+            <div className="grid gap-y-4">
               <div>
                 <div className="relative">
                   <input type="email" className=" w-full py-3 px-4 inline-flex justify-center items-center gap-2 rounded-md border border-[#568302] font-semibold  text-gray-600 focus:outline-none text-xs mb-10 transition-all text-sm " required aria-describedby="email-error" placeholder='Enter your email'/>

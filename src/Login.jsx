@@ -72,11 +72,11 @@ const Login = () => {
                             className="block w-full px-4 py-2 mt-2 mb-8 text-black  bg-white border rounded-md focus:bg-green-200 focus:border-[#568302] focus:ring-[#568302] focus:outline-none focus:bg-green-200 focus:ring focus:ring-opacity-40"
                             placeholder='password'
                         />
-                        <span class="absolute left-10 mr-58 top-60 mt-9  end-0 grid place-content-center px-4">
+                        <span className="absolute left-10 mr-58 top-60 mt-9  end-0 grid place-content-center px-4">
                         <img
             src={hide}
             alt="apple Image"
-            className="h-4 w-4 text-gray-400 mr-34  " viewBox="0 0 24 24" 
+            className="h-4 w-4 text-gray-400 mr-34  " 
           />
                         </span>
                    </div>
@@ -104,7 +104,7 @@ const Login = () => {
                 <img
             src={google}
             alt="google Image"
-            className="w-6" viewBox="0 0 32 32" 
+            className="w-6" 
           />
           </div>
           <span className="ml-4">
@@ -118,7 +118,7 @@ const Login = () => {
                 <img
             src={apple}
             alt="apple Image"
-            className="w-6" viewBox="0 0 32 32" 
+            className="w-6"  
           />
           </div>
           <span className="ml-4">

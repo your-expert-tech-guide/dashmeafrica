@@ -58,7 +58,7 @@ const Signup = () => {
                 src={google}
                 alt="google Image"
                 className="w-6"
-                viewBox="0 0 32 32"
+                
               />
             </div>
             <span className="ml-4">Register with Google</span>
@@ -69,7 +69,7 @@ const Signup = () => {
                 src={apple}
                 alt="apple Image"
                 className="w-6"
-                viewBox="0 0 32 32"
+                
               />
             </div>
             <span className="ml-4">Register with Apple</span>
