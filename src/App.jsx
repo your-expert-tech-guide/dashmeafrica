@@ -10,8 +10,10 @@ import Signup1 from './Signup1'
 import Signup2 from './Signup2';
 import Forgotpassword from './Forgotpassword'
 import HomepageOne from './HomepageOne'
+import HomepageTwo from './HomepageTwo'
 import Productlist from './Productlist'
 import Productpage from './Productpage'
+import Productproduct from './Productproduct'
 function App() {
   return (
     <>
@@ -21,8 +23,10 @@ function App() {
         <Route path='/login' element={<Login />} />
         <Route path='/forgotpassword' element={<Forgotpassword />} />
         <Route path='/homepageone' element={<HomepageOne />} />
+        <Route path='/homepagetwo' element={<HomepageTwo />} />
         <Route path='/productlist' element={<Productlist />} />
         <Route path='/productpage' element={<Productpage />} />
+        <Route path='/productproduct' element={<Productproduct />} />
        
 </Routes>
     </>

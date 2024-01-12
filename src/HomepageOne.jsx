@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import Tik from './assets/tik.png';
 import Twitter from './assets/twitter.png';
 import Facebook from './assets/facebook.png';
+import Instagram from './assets/instagram.png';
 import Dashcart from './assets/dashcart.png'
 import logo from './assets/logo.png';
 import search from './assets/search.png';
@@ -63,8 +64,9 @@ return(
             className="w-5 h-5 "
           />
           <span className=' flex gap-6' >
-          <p className=''>Upload</p>
-          <p>Sign Up</p>
+          <p> <Link to="/Signup2">Upload</Link></p>
+          <p> <Link to="/Signup2">Signup</Link></p>
+          
           <div className="flex"><p>EN</p> <img
             src={dropdown}
             alt="dropdown icon"
@@ -144,22 +146,43 @@ return(
           />
           
           </div>
-          <div className="socials flex gap-6 ml-16 mt-6">{/* Image */}
+          <div className="socials flex gap-6 ml-16 mt-6">
+            {/* Image */}
+          <a href="https://m.facebook.com/profile.php/?id=61555145742937" target="_blank" rel="noreferrer">
           <img
             src={Facebook}
             alt="facebook icon"
             className="w-6  "
-          />{/* Image */}
+/>
+          </a>
+          
+          {/* Image */}
+          <a href="https://x.com/dashmeafrica" target="_blank" rel="noreferrer">
           <img
             src={Twitter}
             alt="Twitter icon"
             className="w-6"
-          />{/* Image */}
+          />
+          </a>
+          <a href="https://www.tiktok.com/@dashme.africa" target="_blank" rel="noreferrer">
           <img
             src={Tik}
-            alt="Tiktok icon"
-            className="w-6 "
-          /></div>
+            alt="Tiktok"
+            className="w-6"
+          />
+          </a>
+
+          <a href="https://www.instagram.com/dashmeafrica?utm_source=qr" target="_blank" rel="noreferrer">
+          <img
+           
+           src={Instagram}
+           alt="Instagram icon"
+           className="w-6"
+         />
+          </a>
+          {/* Image */}
+          
+          </div>
 		</div>
 		<div className="  lg:w-2/3  flex gap-4">
 			<div className="space-y-3  mt-16 w-33">
