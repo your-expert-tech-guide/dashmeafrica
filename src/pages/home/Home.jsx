@@ -1,17 +1,20 @@
-import React from 'react'
-import Header from '../../components/Header/Header'
-import SecondHeader from '../../components/Header/SecondHeader'
-import Footer from '../../components/Footer/Footer'
+import React from "react";
+import Header from "../../components/Header/Header";
+import SecondHeader from "../../components/Header/SecondHeader";
+import Footer from "../../components/Footer/Footer";
+import Hero from "../../components/home/Hero";
 
 const Home = () => {
   return (
     <div>
       <Header />
       <SecondHeader />
-      {/* <p className='text-red-500 text-2xl'>Home Page</p> */}
+      {/* Hero Section start */}
+      <Hero />
+      {/* Hero Section end */}
       <Footer />
     </div>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;
