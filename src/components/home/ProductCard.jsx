@@ -9,7 +9,11 @@ const ProductCard = ({ product }) => {
   };
   return (
     <div>
-      <img src={product.img} alt="product" className="w-[198px] h-[224px]" />
+      <img
+        src={product.img}
+        alt="product"
+        className="w-[198px] h-[224px] cursor-pointer hover:scale-105"
+      />
       <div className="flex justify-between w-[198px] mt-1">
         <div>
           <h1 className="font-medium">{product.name}</h1>
