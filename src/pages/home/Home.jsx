@@ -63,6 +63,13 @@ const Products = [
 ];
 
 const Home = () => {
+  const itemsPerRow = 6;
+  const rows = [];
+
+  for (let i = 0; i < UserFeed.length; i += itemsPerRow) {
+    const row = UserFeed.slice(i, i + itemsPerRow);
+    rows.push(row);
+  }
   return (
     <div>
       <Header />
@@ -97,36 +104,43 @@ const Home = () => {
           </p>
         </div>
         <div className="flex overflow-x-auto scrollbar-hide whitespace-nowrap h-[225px] sm:h-[260px] 2xl:justify-between 2xl:overflow-x-hidden 2xl:pr-9 pr-2 mt-5">
-          {Products.map((product, key) => (
+          {Products.map((product) => (
             <div key={product.id} className="mr-[-10px] sm:mr-3">
               {" "}
-              {/* Added wrapper */}
-              <ProfileCard product={product} />
+              <ProfileCard key={product.id} product={product} />
             </div>
           ))}
         </div>
       </div>
       {/* Profile section end */}
       {/* User feed section start */}
-      <div className="p-12">
-        <div className="flex justify-between">
-          <h1 className="text-xl font-medium">User feed</h1>
-          <p className="text-xl font-medium text-[#568203] cursor-pointer hover:scale-105 transition-transform">
+      <div className="pl-5 sm:pl-9 pt-12">
+        <div className="flex justify-between pr-5 sm:pr-12 pb-5">
+          <h1 className="text-base sm:text-xl font-medium">User feed</h1>
+          <p className="text-base sm:text-xl font-medium text-[#568203] cursor-pointer hover:scale-105 transition-transform">
             See All
           </p>
         </div>
-        <div className="flex justify-between gap-3 flex-wrap mt-5">
-          {UserFeed.map((product) => (
-            <div className="pb-10">
-              <div className="flex items-center gap-3 pb-2">
-                <img
-                  src={User}
-                  alt="product"
-                  className="w-[16.35px] h-[18px]"
-                />
-                <p>{product.profileName}</p>
-              </div>
-              <ProductCard key={product.id} product={product} />
+        <div className="flex flex-col gap-5">
+          {" "}
+          {rows.map((row, rowIndex) => (
+            <div
+              key={rowIndex}
+              className="flex overflow-x-auto scrollbar-hide whitespace-nowrap 2xl:justify-between 2xl:overflow-x-hidden 2xl:pr-9 pr-2"
+            >
+              {row.map((product) => (
+                <div className="pb-10 mr-3">
+                  <div className="flex items-center gap-3 pb-2">
+                    <img
+                      src={User}
+                      alt="product"
+                      className="w-[16.35px] h-[18px]"
+                    />
+                    <p>{product.profileName}</p>
+                  </div>
+                  <ProductCard key={product.id} product={product} />
+                </div>
+              ))}
             </div>
           ))}
         </div>

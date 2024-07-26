@@ -36,7 +36,7 @@ const UserFeed = [
     name: "Birkenstock sandals",
     price: "N10,000",
     location: "Benin, Edo State",
-    img: Sandals,
+    img: Bralette,
   },
   {
     id: 5,
@@ -60,7 +60,7 @@ const UserFeed = [
     name: "Lace bralettes",
     price: "N2,500",
     location: "Lekki, Lagos State",
-    img: Bralette,
+    img: Sandals,
   },
   {
     id: 8,
