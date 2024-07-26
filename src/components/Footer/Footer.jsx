@@ -35,7 +35,7 @@ const Footer = () => {
       </div>
       {/* Main Footer start */}
       <div className="flex justify-around pt-2 pb-10 sm:pt-0 sm:py-10 ">
-        <div className="flex flex-col-reverse lg:flex-row lg:justify-around lg:w-[50%]">
+        <div className="flex flex-col-reverse lg:flex-row lg:justify-around lg:w-[50%] ml-2">
           <div className="flex flex-col items-center">
             <img
               src={DashMe}
@@ -74,10 +74,10 @@ const Footer = () => {
         <div className="flex flex-col lg:flex-row lg:justify-around lg:w-[50%] justify-center">
           <div className="mt-8">
             <p className="text-lg sm:text-2xl font-medium">{t("Nigeria")}</p>
-            <p className="w-[180px] sm:w-[220px] text-balance mt-2 text-sm sm:text-base">
+            <p className="w-[175px] sm:w-[220px] text-balance mt-2 text-sm sm:text-base">
               {t("No. 4B Wonodi Crescent by Stadium Road, Port Harcourt.")}
             </p>
-            <p className="text-[#71033F] mt-5 text-sm sm:text-base">
+            <p className="text-[#71033F] mt-1 text-sm sm:text-base">
               +234 703 675 6184
             </p>
             <p className="text-[#71033F] text-sm sm:text-base">
@@ -86,7 +86,7 @@ const Footer = () => {
           </div>
           <div className="mt-8">
             <p className="text-lg sm:text-2xl font-medium">{t("UK")}</p>
-            <p className="w-[180px] sm:w-[220px] text-balance mt-2 text-sm sm:text-base">
+            <p className="w-[170px] sm:w-[220px] text-balance mt-2 text-sm sm:text-base">
               {t(
                 "Andrexa Global Logistics, 8 Bromborough Avenue, Wirral, Liverpool CH62 7AW"
               )}
