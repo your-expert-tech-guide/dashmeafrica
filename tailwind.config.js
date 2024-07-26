@@ -10,6 +10,14 @@ export default {
         "hero-pattern-5": "url('./src/assets/images/hero/hero-bg-5.png')",
         "hero-pattern-9": "url('./src/assets/images/hero/hero-bg-9.png')",
       },
+      scrollbar: {
+        "&::-webkit-scrollbar": {
+          display: "none",
+        },
+        "&::-webkit-scrollbar-thumb": {
+          display: "none",
+        },
+      },
     },
   },
   plugins: [],

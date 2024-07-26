@@ -72,14 +72,16 @@ const Home = () => {
       {/* Hero Section end */}
       {/* Main section start */}
       {/* Recommended section start */}
-      <div className="p-12">
-        <div className="flex justify-between">
-          <h1 className="text-xl font-medium">Recommended for you</h1>
-          <p className="text-xl font-medium text-[#568203] cursor-pointer hover:scale-105 transition-transform">
+      <div className="max-[950px]:mt-[-120px] pl-5 sm:pl-9 pt-12">
+        <div className="flex justify-between pr-5 sm:pr-12">
+          <h1 className="text-base sm:text-xl font-medium">
+            Recommended for you
+          </h1>
+          <p className="text-base sm:text-xl font-medium text-[#568203] cursor-pointer hover:scale-105 transition-transform">
             See All
           </p>
         </div>
-        <div className="flex justify-between gap-3 flex-wrap mt-5">
+        <div className="bg-scroll flex overflow-x-auto scrollbar-hide whitespace-nowrap mt-2 sm:mt-5 gap-5 2xl:justify-between 2xl:overflow-x-hidden 2xl:pr-9 pr-2">
           {Products.map((product) => (
             <ProductCard key={product.id} product={product} />
           ))}
@@ -87,16 +89,20 @@ const Home = () => {
       </div>
       {/* Recommended section end */}
       {/* Profile section start */}
-      <div className="p-12">
-        <div className="flex justify-between">
-          <h1 className="text-xl font-medium">Explore Profiles</h1>
-          <p className="text-xl font-medium text-[#568203] cursor-pointer hover:scale-105 transition-transform">
+      <div className="pl-5 sm:pl-9 pt-12">
+        <div className="flex justify-between pr-5 sm:pr-12">
+          <h1 className="text-base sm:text-xl font-medium">Explore Profiles</h1>
+          <p className="text-base sm:text-xl font-medium text-[#568203] cursor-pointer hover:scale-105 transition-transform">
             See All
           </p>
         </div>
-        <div className="flex justify-between gap-3 flex-wrap mt-5">
+        <div className="flex overflow-x-auto scrollbar-hide whitespace-nowrap h-[225px] sm:h-[260px] 2xl:justify-between 2xl:overflow-x-hidden 2xl:pr-9 pr-2 mt-5">
           {Products.map((product, key) => (
-            <ProfileCard key={product.id} product={product} />
+            <div key={product.id} className="mr-[-10px] sm:mr-3">
+              {" "}
+              {/* Added wrapper */}
+              <ProfileCard product={product} />
+            </div>
           ))}
         </div>
       </div>

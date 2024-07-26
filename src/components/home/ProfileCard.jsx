@@ -14,15 +14,15 @@ const ProfileCard = () => {
         <img
           src={Chair}
           alt="product"
-          className="w-[198px] h-[224px] absolute"
+          className="w-[150px] sm:w-[198px] h-[160px] sm:h-[224px] absolute"
         />
-        <div className="relative  ml-[123px]">
+        <div className="relative ml-[103px] sm:ml-[123px]">
           <img
             src={Gen}
             alt="product"
-            className="w-[75px] h-[224px] absolute"
+            className="w-[60px] sm:w-[75px] h-[160px] sm:h-[224px] absolute"
           />
-          <div className="flex items-center justify-center w-[75px] h-[224px] opacity-85 bg-black absolute cursor-pointer">
+          <div className="flex items-center justify-center w-[60px] sm:w-[75px] h-[160px] sm:h-[224px] opacity-85 bg-black absolute cursor-pointer">
             <p className="text-white text-2xl font-semibold">+ 8</p>
           </div>
         </div>

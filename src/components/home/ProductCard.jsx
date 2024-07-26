@@ -12,13 +12,13 @@ const ProductCard = ({ product }) => {
       <img
         src={product.img}
         alt="product"
-        className="w-[198px] h-[224px] cursor-pointer hover:scale-105"
+        className="w-[150px] sm:w-[198px] h-[150px] sm:h-[224px] cursor-pointer hover:scale-105"
       />
-      <div className="flex justify-between w-[198px] mt-1">
-        <div>
-          <h1 className="font-medium">{product.name}</h1>
-          <p className="text-[#71033F]">{product.price}</p>
-          <p className="text-sm">{product.location}</p>
+      <div className="flex justify-between w-[150px] sm:w-[198px] mt-1">
+        <div className="flex flex-col gap-1">
+          <h1 className="font-medium text-xs sm:text-base">{product.name}</h1>
+          <p className="text-[#71033F] text-xs sm:text-base">{product.price}</p>
+          <p className="text-xs sm:text-sm">{product.location}</p>
         </div>
         <div className="cash">
           {isSaved ? (
