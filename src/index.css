@@ -19,6 +19,10 @@
   pointer-events: none;
 }
 
+.hero1 {
+  background-image: url('./assets/images/hero/hero-bg.png');
+}
+
 
 /* :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
