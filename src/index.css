@@ -19,22 +19,6 @@
   pointer-events: none;
 }
 
-.hero1 {
-  background-image: url('./assets/images/hero/hero-bg.png');
-}
-.hero2 {
-  background-image: url('./assets/images/hero/hero-bg-m.png');
-}
-.hero3 {
-  background-image: url('./assets/images/hero/hero-bg-md.png');
-}
-.hero4 {
-  background-image: url('./assets/images/hero/hero-bg-5.png');
-}
-.hero5 {
-  background-image: url('./assets/images/hero/hero-bg-9.png');
-}
-
 
 
 /* :root {
