@@ -9,7 +9,7 @@ const Footer = () => {
   const { t } = useTranslation();
 
   return (
-    <div>
+    <div className="mt-20">
       <div className="flex flex-col items-center gap-5 sm:gap-9">
         <p className="sm:text-[1.5rem] lg:text-[2rem] font-medium">
           {t("WANT TO PUT A SMILE ON SOMEONE'S FACE?")}
@@ -34,7 +34,7 @@ const Footer = () => {
         </div>
       </div>
       {/* Main Footer start */}
-      <div className="flex justify-around pt-2 pb-10 sm:pt-0 sm:py-10 ">
+      <div className="flex justify-around pt-5 pb-10 sm:pt-14 sm:py-10 ">
         <div className="flex flex-col-reverse lg:flex-row lg:justify-around lg:w-[50%] ml-2">
           <div className="flex flex-col items-center">
             <img

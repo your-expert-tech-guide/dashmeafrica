@@ -8,6 +8,7 @@ import SecondHeader from "./components/Header/SecondHeader.jsx";
 import Hero from "./components/home/Hero.jsx";
 import Footer from "./components/Footer/Footer.jsx";
 import Login from "./pages/login/Login.jsx";
+import ForgotPassword from "./pages/forgotPassword/ForgotPassword.jsx";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <Route path="/signup" element={<Signup />} />
         <Route path="/signup2" element={<Signup2 />} />
         <Route path="/login" element={<Login />} />
+        <Route path="/forgot-password" element={<ForgotPassword />} />
       </Routes>
     </div>
   );

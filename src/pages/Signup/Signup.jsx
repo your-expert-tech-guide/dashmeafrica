@@ -20,7 +20,9 @@ const Signup = () => {
       <nav className="flex items-center justify-between pr-6 sm:pr-10 sm:px-4 text-black">
         <div className="flex items-center">
           {/* Logo */}
-          <img src={Logo} alt="Logo" className="mr-2" />
+          <Link to="/">
+            <img src={Logo} alt="Logo" className="mr-2" />
+          </Link>
         </div>
         <div className="flex items-center space-x-4 md:space-x-10">
           {/* Login Button with conditional border */}
