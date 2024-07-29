@@ -10,7 +10,7 @@ const Footer = () => {
 
   return (
     <div className="mt-20">
-      <div className="flex flex-col items-center gap-5 sm:gap-9">
+      <div className="flex flex-col items-center gap-5 sm:gap-9 pb-14">
         <p className="sm:text-[1.5rem] lg:text-[2rem] font-medium">
           {t("WANT TO PUT A SMILE ON SOMEONE'S FACE?")}
         </p>
@@ -34,8 +34,8 @@ const Footer = () => {
         </div>
       </div>
       {/* Main Footer start */}
-      <div className="flex justify-around pt-5 pb-10 sm:pt-14 sm:py-10 ">
-        <div className="flex flex-col-reverse lg:flex-row lg:justify-around lg:w-[50%] ml-2">
+      <div className="flex justify-around pt-5 pb-10 sm:pt-1 sm:py-10 gap-2 sm:border-t border-[#568203]">
+        <div className="flex flex-col-reverse lg:flex-row lg:justify-around lg:w-[50%] ml-2 border border-[#568203] p-3 rounded-xl sm:border-none">
           <div className="flex flex-col items-center">
             <img
               src={DashMe}
@@ -61,7 +61,7 @@ const Footer = () => {
             </div>
           </div>
           <div className="mt-8">
-            <p className="text-lg sm:text-2xl font-medium">
+            <p className="text-[#568203] text-lg sm:text-2xl font-medium">
               {t("Our Mission")}
             </p>
             <p className="w-[150px] sm:w-[250px] text-balance mt-2 text-sm sm:text-base">
@@ -71,9 +71,11 @@ const Footer = () => {
             </p>
           </div>
         </div>
-        <div className="flex flex-col lg:flex-row lg:justify-around lg:w-[50%] justify-center">
+        <div className="flex flex-col lg:flex-row lg:justify-around lg:w-[50%] justify-center border border-[#568203] p-2 rounded-xl sm:border-none">
           <div className="mt-8">
-            <p className="text-lg sm:text-2xl font-medium">{t("Nigeria")}</p>
+            <p className="text-[#568203] text-lg sm:text-2xl font-medium">
+              {t("Nigeria")}
+            </p>
             <p className="w-[175px] sm:w-[220px] text-balance mt-2 text-sm sm:text-base">
               {t("No. 4B Wonodi Crescent by Stadium Road, Port Harcourt.")}
             </p>
@@ -81,11 +83,13 @@ const Footer = () => {
               +234 703 675 6184
             </p>
             <p className="text-[#71033F] text-sm sm:text-base">
-              help@dashme.africa
+              info@dashme.africa
             </p>
           </div>
           <div className="mt-8">
-            <p className="text-lg sm:text-2xl font-medium">{t("UK")}</p>
+            <p className="text-[#568203] text-lg sm:text-2xl font-medium">
+              {t("UK")}
+            </p>
             <p className="w-[170px] sm:w-[220px] text-balance mt-2 text-sm sm:text-base">
               {t(
                 "Andrexa Global Logistics, 8 Bromborough Avenue, Wirral, Liverpool CH62 7AW"
