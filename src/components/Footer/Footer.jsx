@@ -107,8 +107,8 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <p className="ml-2 sm:ml-10 mb-2 text-sm">
-        An Andrexa Global Product.
+      <p className="text-center mb-2 text-sm">
+        Andrexa Global Product.
         <br className="block sm:hidden" /> All Rights Reserved. © Copyright 2024
       </p>
     </div>
