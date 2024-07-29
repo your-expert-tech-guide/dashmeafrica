@@ -4,6 +4,7 @@ import DashMe from "../../assets/images/footer/DashMe.png";
 import Facebook from "../../assets/images/footer/facebook.svg";
 import X from "../../assets/images/footer/x.svg";
 import TikTok from "../../assets/images/footer/tiktok.svg";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   const { t } = useTranslation();
@@ -29,12 +30,14 @@ const Footer = () => {
           </button>
         </div>
         <div className="flex gap-1 text-xs sm:text-lg lg:text-xl font-medium">
-          <p className="text-[#568203]">{t("SIGN UP")}</p>
+          <p className="text-[#568203]">
+            <Link to="/signup">{t("SIGN UP")}</Link>
+          </p>
           <p> {t("TO RECEIVE WEEKEND DISCOUNT OFFERS")}</p>
         </div>
       </div>
       {/* Main Footer start */}
-      <div className="flex justify-around pt-5 pb-10 sm:pt-1 sm:py-10 gap-2 sm:border-t border-[#568203]">
+      <div className="flex justify-around pt-5 pb-5 sm:pt-1 sm:py-10 gap-2 sm:border-t border-[#568203]">
         <div className="flex flex-col-reverse lg:flex-row lg:justify-around lg:w-[50%] border border-[#568203] p-3 rounded-xl sm:border-none">
           <div className="flex flex-col items-center mt-5 sm:mt-0">
             <img
@@ -104,6 +107,10 @@ const Footer = () => {
           </div>
         </div>
       </div>
+      <p className="ml-2 sm:ml-10 mb-2 text-sm">
+        An Andrexa Global Product.
+        <br className="block sm:hidden" /> All Rights Reserved. © Copyright 2024
+      </p>
     </div>
   );
 };
