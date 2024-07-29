@@ -99,7 +99,7 @@ const Footer = () => {
               +447 799 178 814
             </p>
             <p className="text-[#71033F] text-sm sm:text-base">
-              help@dashme.africa
+              info@dashme.africa
             </p>
           </div>
         </div>
