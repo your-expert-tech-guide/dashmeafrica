@@ -36,7 +36,7 @@ const Footer = () => {
       {/* Main Footer start */}
       <div className="flex justify-around pt-5 pb-10 sm:pt-1 sm:py-10 gap-2 sm:border-t border-[#568203]">
         <div className="flex flex-col-reverse lg:flex-row lg:justify-around lg:w-[50%] border border-[#568203] p-3 rounded-xl sm:border-none">
-          <div className="flex flex-col items-center">
+          <div className="flex flex-col items-center mt-5 sm:mt-0">
             <img
               src={DashMe}
               alt="DashMe Africa"
@@ -60,7 +60,7 @@ const Footer = () => {
               />
             </div>
           </div>
-          <div className="mt-8">
+          <div className="sm:mt-8">
             <p className="text-[#568203] text-lg sm:text-2xl font-medium">
               {t("Our Mission")}
             </p>
@@ -72,7 +72,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="flex flex-col lg:flex-row lg:justify-around lg:w-[50%] justify-center border border-[#568203] p-2 rounded-xl sm:border-none">
-          <div className="mt-8">
+          <div className="lg:mt-8">
             <p className="text-[#568203] text-lg sm:text-2xl font-medium">
               {t("Nigeria")}
             </p>
