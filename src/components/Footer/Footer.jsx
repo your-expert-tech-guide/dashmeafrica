@@ -76,7 +76,7 @@ const Footer = () => {
             <p className="text-[#568203] text-lg sm:text-2xl font-medium">
               {t("Nigeria")}
             </p>
-            <p className="w-[140px] sm:w-[220px] text-balance mt-2 text-sm sm:text-base">
+            <p className="w-[150px] sm:w-[220px] text-balance mt-2 text-sm sm:text-base">
               {t("No. 4B Wonodi Crescent by Stadium Road, Port Harcourt.")}
             </p>
             <p className="text-[#71033F] mt-1 text-sm sm:text-base">
@@ -90,7 +90,7 @@ const Footer = () => {
             <p className="text-[#568203] text-lg sm:text-2xl font-medium">
               {t("UK")}
             </p>
-            <p className="w-[145px] sm:w-[220px] mt-2 text-sm sm:text-base">
+            <p className="w-[150px] sm:w-[220px] mt-2 text-sm sm:text-base">
               {t(
                 "Andrexa Global Logistics, 8 Bromborough Avenue, Wirral, Liverpool CH62 7AW"
               )}
