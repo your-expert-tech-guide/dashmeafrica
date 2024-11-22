@@ -1,4 +1,4 @@
-*DashMe Africa Website Design Documentation*
+*DashMe Africa WebApp Documentation*
  Version 1.0.0
 
 ---
@@ -6,14 +6,14 @@
 1. *Title and Version Information*
 
 *Title*:
- DashMe Africa Website Design  
+ DashMe Africa WebApp 
 *Version*: 1.0.0
 
 ---
 
  2.*Introduction*
 *Purpose*: 
-This documentation provides a comprehensive guide to the design and development of the DashMe Africa website.
+This documentation provides a comprehensive guide to the design and development of the DashMe Africa WebApp.
 
 *Scope*: 
 It covers objectives, design principles, site structure, page layouts, content strategy, technical specifications, development process, and maintenance plans.
@@ -25,13 +25,13 @@ This document is intended for designers, developers, and project stakeholders.
 
  3. *Project Overview*
 *Objective*: 
-To create a platform where users can sell or give away items in good condition instead of discarding them.
+To create a platform where users can either sell or give away (donate) thrift items in good condition instead of discarding them to help protect the environment and reduce CO2 emission.
 
 *Description*: 
-DashMe Africa targets individuals looking to responsibly dispose of their unused items. The website will feature bright, clear photos of the items.
+DashMe Africa targets individuals looking to responsibly dispose thrift items. The webapp will feature bright, clear photos of the items.
 
 *Features*: 
-User registration, item listing, item search, responsive design, secure checkout, user accounts.
+Responsive design, User registration, User accounts, Item listing, Item search, Secure checkout.
 
 --- 
 4. *Design Principles and Guidelines*
@@ -39,7 +39,7 @@ User registration, item listing, item search, responsive design, secure checkout
 Use the DashMe Africa color palette, logo, and typography as per the branding guide.
 
 *UX*: 
-Ensure simplicity, consistency, and accessibility.
+Ensure Simplicity, Consistency, and Accessibility (SCA).
 
 *UI*: 
 Include standardized buttons, forms, icons, and a navigation menu.
@@ -52,8 +52,8 @@ Include standardized buttons, forms, icons, and a navigation menu.
 *Navigation*: 
 - Home
 - Log in
-- sign in
-- Sell/Dash Items
+- Sign in
+- Sell/Donate Items
 - Categories
 - About Us
 - Contact Us
